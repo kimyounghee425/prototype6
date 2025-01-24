@@ -14,7 +14,7 @@ export function HeaderSection() {
               fontWeight="bold"
               fontFamily="Be Vietnam"
             >
-              iDesign
+              roomARt
             </Text>
           </Box>
         </Box>
@@ -61,7 +61,7 @@ export function HeaderSection() {
           {/* 굵은 글씨 소개 */}
           <Box
             fontSize={["28px", null, "40px"]}
-            width={["259px", null, "561px"]}
+            width={["286px", null, "575px"]}
             fontWeight="700"
             color="black"
             lineHeight={["36px", null, "52px"]}
@@ -69,18 +69,18 @@ export function HeaderSection() {
           >
             {/* 모바일 화면 */}
             <Text display={["block", "block", "none"]}>
-              생성형 AI기반의 정확한
+              당신의 공간을 더 특별하게
               <br />
-              위치 정보를 찾아주는
+              만드는 실시간 3D 가상
               <br />
-              인공지능 기반의 MAP
+              인테리어 시뮬레이터
             </Text>
 
             {/* 데스크탑 화면 */}
             <Text display={["none", "none", "block"]}>
-              생성형 AI기반의 정확한 위치 정보를
+              당신의 공간을 더 특별하게 만드는
               <br />
-              찾아주는 인공지능 기반의 MAP
+              실시간 3D 가상 인테리어 시뮬레이터
             </Text>
           </Box>
 
@@ -93,15 +93,14 @@ export function HeaderSection() {
           >
             {/* 모바일 화면 */}
             <Text display={["block", "block", "none"]}>
-              AI를 활용해 사용자의 검색어를 분석하고, 그에 따른 최적의 장소를
-              제공해 주는 지도입니다. 또한, AI가 각 장소의 리뷰들을 분석해
-              신뢰할 수 있는 정보만을 바탕으로 구성된 리뷰를 제공합니다.
+            우리는 시뮬 화면에 자신의 객관적인 시선을 경험하고, 그에 맞는 맞춤형 솔루션을 제공합니다.
+            또한, 다양한 사용자들과 공간을 공유하며 더 나은 아이디어를 발견할 수 있도록 돕습니다.
             </Text>
             {/* 데스크탑 화면 */}
             <Text display={["none", "block", "block"]}>
-              AI 를 활용해 사용자의 검색어를 분석하고, 그에 따른 최적의 장소를 제공해 주는 지도입니다.
+              우리는 시뮬 화면에 자신의 객관적인 시선을 경험하고, 그에 맞는 맞춤형 솔루션을 제공합니다.
               <br />
-              또한, AI가 각 장소의 리뷰들을 분석해 신뢰할 수 있는 정보만을 바탕으로 구성된 리뷰를 제공합니다.
+              또한, 다양한 사용자들과 공간을 공유하며 더 나은 아이디어를 발견할 수 있도록 돕습니다.
             </Text>
           </Box>
         </VStack>
