@@ -13,7 +13,8 @@ export default function Home() {
     const userVisited = "visited";
 
     const countVisited = async () => {
-      if (!localStorage.getItem(userVisited)) {
+      if (true) {
+        console.log("post 메서드 수행")
         try {
           // 인테리어 6번
           const response = await fetch(`${BASE_URL}/api/log-visit/`, {
